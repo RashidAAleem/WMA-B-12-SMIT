@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 4</title>
+</head>
+
+<body>
+    <button>
+
+        <a href="../index.html"> Back to Main Page</a>
+    </button>
+    <h1 id="top"> Class 4 : Forms Chapter-7</h1>
+    <h2> Dated : 28-06-2024</h2>
+    <ol>
+        <strong>
+            <h3>
+
+                (Form) is used to collect data from the client in various kind.
+            </h3>
+        </strong>
+        <li>
+            <strong>
+                Form Controls: is used to collect information from visitors to a specific website
+            </strong>
+        </li>
+        <ol>
+
+            <li>
+                text
+                <ul>
+                    <li>Text Input(single line) ( used for a single line of text)</li>
+                    <li>Password Input ( used for a single line text box to enter masks(hidden) text)</li>
+                    <li>Text Area(multi-line) ( used for longer areas of text)</li>
+                </ul>
+            </li>
+            <li>Making Choices
+                <ul>
+                    <li>
+                        Radio Buttons (to select only one from numbers of option)
+                    </li>
+                    <li>
+                        Checkboxes (to select unselect one or more option)
+                    </li>
+                    <li>
+                        Drop-down boxes ( to pick one of a number of options from a list.)
+                    </li>
+                </ul>
+            <li>
+                Submitting Forms
+                <ul>
+                    <li> Submit Buttons ( to submit data from form to another webpage or server</li>
+                    <li> Image Buttons ( They allow to use a image)</li>
+                    <li> Uploading files (Allows users to upload file(s)</li>
+                </ul>
+            </li>
+            </li>
+
+        </ol>
+        <li>
+            <strong>
+                Form Structure
+            </strong>
+            <ol>
+                <li>" form action="", method="", id=""
+
+                    /form"<br>
+                    <ul>
+
+
+                        <li>
+
+                            Method is used to recieve (get) or send (post) data to the server
+                        </li>
+                        <li>
+
+                            id is used to identify the form distinclty from other element
+                        </li>
+                        <li>
+
+                            Action is used to recieve or send data from or to the server
+                        </li>
+                </li>
+                </ul>
+                </ul>
+
+                <li>
+                    Text Input
+                    <ul>
+                        <li>input type="", name="", size, maxlength="" /input</li>
+                        <ul>
+
+                            <li> type is used to select the type of entered data.</li>
+                            <br> type="button" <input type="button" name="" id="">
+                            <br>type="checkbox"<input type="checkbox" name="" id="">
+                            <br>type="color" <input type="color" name="" id="">
+                            <br> type="date" <input type="date" name="" id="">
+                            <br> type="datetime-local" <input type="datetime-local" name="" id="">
+                            <br>type="email" <input type="email" name="" id="">
+                            <br>type="file" <input type="file" name="" id="">
+                            <br> type="hidden" <input type="hidden" name="" id="">
+                            <br> type="image" <input type="image" name="" id="">
+                            <br> type="month" <input type="month" name="" id="">
+                            <br> type="number" <input type="number" name="" id="">
+                            <br>type="password" <input type="password" name="" id="">
+                            <br> type="radio" <input type="radio" name="" id="">
+                            <br>type="range" <input type="range" name="" id="">
+                            <br>type="reset" <input type="reset" name="" id="">
+                            <br>type="search" <input type="search" name="" id="">
+                            <br>type="submit" <input type="submit" name="" id="">
+                            <br>type="tel" <input type="tel" name="" id="">
+                            <br>type="text" <input type="text" name="" id="">
+                            <br>type="time" <input type="time" name="" id="">
+                            <br>type="url" <input type="url" name="" id="">
+                            <br> type="week" <input type="week" name="" id="">
+                            <li> name is used for define entered data type in input field to the server </li>
+                            <li> size is used to indicate the width of the text input (measured by the number of
+                                characters
+                                that would be seen) <br>Note: The size attribute should not
+                                be used on new forms. It was
+                                used in older forms </li>
+                            <li> maxlength is use to limit the number of characters a user may enter </li>
+                        </ul>
+                    </ul>
+
+                </li>
+                <li>
+                    Button
+                    <ul>
+                        <li> button /button</li>
+                        <ul>
+                            <li>button is clickable area from which depending on condition we can get or post data</li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>Label
+                    <br>The <label> element can be
+                        used in two ways. It can:
+                        1. Wrap around both <br>the text (heading / name etc)
+                        description and <br>the form input
+                        (as shown on the first line of the
+                        example to your right).
+                        2. Be kept separate from the
+                        form control and use the for
+                        attribute to indicate which form
+                        control it is a label for (as shown
+                        with the radio buttons).
+                        <ul>
+                            <li>label for="" /label</li>
+                            <ul>
+                                <li>for attribute is use indicate the form text and input field belonging</li>
+                            </ul>
+                        </ul>
+                </li>
+        </li>
+        <li> Field Set</li>
+        <ul>
+            You can group related form
+            controls together inside the
+            fieldset element. This is
+            particularly helpful for longer
+            forms.
+            <li>
+                fieldset
+                <br>
+                legend
+                <br>
+                <br> /legend
+                <br>/fieldset
+                <ul>
+                    <li>
+                        Most browsers will show the
+                        fieldset with a line around
+                        the edge to show how they are
+                        related. The appearance of these
+                        lines can be adjusted using CSS
+                    </li>
+                    <li>The legend element can
+                        come directly after the opening
+                        fieldset tag and contains a
+                        caption which helps identify the
+                        purpose of that group of form
+                        controls</li>
+                </ul>
+            </li>
+
+        </ul>
+        <li>
+            Form Validation
+            <p>forms
+                on the web that give users
+                messages if the form control has
+                not been filled in correctly; this is
+                known as form validation.</p>
+                <p>Traditionally, form validation
+                    has been performed using
+                    JavaScript But HTML5
+                    is introducing validation and
+                    leaving the work to the browser </p>
+        </li>
+    </ol>
+
+
+
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.
+        </p>
+        <strong>
+
+            Examples
+        </strong>
+        <p>
+            Username:
+        </p>
+        <input type="text" name="username" size="15" maxlength="30">
+        <!-- size attribut is obsolete -->
+
+        <p>
+            Password
+        </p>
+        <input type="password" name="password" size="15" maxlength="30" id="">
+    </form>
+    <form action="http://www.example.com/comments.php">
+        <p>
+
+            Text Area
+        </p>
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="25" rows="5">Enter
+         your comments...</textarea>
+    </form>
+
+    <form action="http://www.example.com/profile.php">
+        <p>Radio Buttons</p>
+        <br>input type="radio" name="genre" value="" checked (in any one which wants to be selected at start)
+        <br> type="radio"
+        <br> name="" will define the input data (can be set one for same input fields)
+        in this example we set name ="genere"
+        <br>value attribute indicates the value that is sent to the server
+        <br>checked attribute is can be used to indicate which value should be select when page is loaded
+        <p>Please select your favorite genre:
+            <br />
+            <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+            <input type="radio" name="genre" value="pop" />
+            Pop
+            <input type="radio" name="genre" value="jazz" />
+            Jazz
+        </p>
+    </form>
+
+    <form action="http://www.example.com/profile.php">
+        <p>Check Boxes</p>
+        <p>Please select your favorite music service(s):
+            <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+    </form>
+
+    <form action="http://www.example.com/profile.php">
+        <p>Drop-down List</p>
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+            <option>Please Select</option>
+            <option value="ipod">iPod</option>
+            <option value="radio">Radio</option>
+            <option value="computer">Computer</option>
+        </select>
+    </form>
+    <label>Age: <input type="text" name="age" /></label>
+    <br />
+    Gender:
+    <input id="female" type="radio" name="gender" value="f">
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m">
+    <label for="male">Male</label>
+
+    <button>
+        <a href="#top">At top</a>
+    </button>
+</body>
+
+</html>
