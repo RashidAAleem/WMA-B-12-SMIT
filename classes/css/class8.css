@@ -1,0 +1,27 @@
+body {
+  background-color: rgba(128, 35, 89, 0.2);
+  /* font-size: 50px; */
+  /* font-size: 1.5rem; */
+}
+h1 {
+  text-align: center;
+}
+
+.button-like {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: blue;
+    text-decoration: none; /* Remove underline for anchor tag */
+    display: inline-block; /* Ensure anchor behaves like a button */
+  }
+  
+  .button-like:hover {
+    color: white;
+    background-color: blue;
+    shadow: 2px 2px 2px white
+    /* shadow: 1px 1px 0px #000000;} */
+
+  }
+  
+  
