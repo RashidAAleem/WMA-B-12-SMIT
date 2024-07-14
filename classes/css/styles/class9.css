@@ -1,0 +1,22 @@
+/* 
+.box{
+    background-color: blue;
+    width : 100%;
+    height : 400px;
+}
+
+.child{
+    background-color: orange;
+    width : 50%;
+    height : 50%;
+} */
+
+img{
+    min-width: 450px;
+    max-width: 450px;
+    text-align: left;
+    
+}
+div{
+    background-color: blue;
+}
